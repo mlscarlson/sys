@@ -1,0 +1,4 @@
+root ALL=(ALL) ALL
+mc   ALL=(ALL) ALL
+
+@includedir /etc/sudoers.d
