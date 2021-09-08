@@ -1,3 +1,5 @@
-0 * * * * su -c '. ${HOME}/.profile; /home/${USER}/.local/bin/bar/mail.sh -g' mc
-0 * * * * su -c '. ${HOME}/.profile; /home/${USER}/.local/bin/bar/pkgs.sh -g' mc
-0 * * * * su -c '. ${HOME}/.profile; /home/${USER}/.local/bin/bar/rss.sh -g'  mc
+0 12 * * * su -c '/home/mc/.local/bin/backup.sh'
+0 * * * *  su -c '. ${HOME}/.profile; /home/${USER}/.local/bin/bar/mail.sh -g' mc
+0 * * * *  su -c '. ${HOME}/.profile; /home/${USER}/.local/bin/bar/pkgs.sh -g' mc
+0 * * * *  su -c '. ${HOME}/.profile; /home/${USER}/.local/bin/bar/rss.sh -g'  mc
+0 12 * * * su -c '. ${HOME}/.profile; /home/${USER}/.local/bin/vultr.sh'   mc
