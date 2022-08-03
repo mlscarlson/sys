@@ -1,4 +1,6 @@
 root ALL=(ALL) ALL
 mc   ALL=(ALL) ALL
 
+Defaults passwd_timeout=0
+
 @includedir /etc/sudoers.d
