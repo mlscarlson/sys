@@ -3,3 +3,12 @@ UUID=cc4cc073-8541-4059-a39d-1917851c8c72 / ext4 rw,relatime 0 1
 
 # boot
 UUID=3E60-4738 /boot vfat rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro 0 2
+
+# vids
+UUID=2CEC15B6EC157B72 /home/mc/vids/ ntfs-3g defaults,uid=1000,gid=1000,umask=0022 0 0
+
+# music
+UUID=1A1235A512358733 /home/mc/music/ ntfs-3g defaults,uid=1000,gid=1000,umask=0022 0 0
+
+# dl
+UUID=ACB24327B242F4FC /home/mc/dl/ ntfs-3g defaults,uid=1000,gid=1000,umask=0022 0 0
