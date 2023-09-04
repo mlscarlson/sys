@@ -1,8 +1,8 @@
 # luks root
-UUID=a138ad72-8bbd-4429-81dd-352ffc067ea4 / ext4 rw,relatime 0 1
+UUID=eda54649-f2e1-4aba-bfca-06c2238f4cb4 / ext4 rw,relatime 0 1
 
 # boot
-UUID=B08A-2AB6 /boot vfat rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
+UUID=1411-17D4 /boot vfat rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
 
 # backup
 UUID=387f839f-ca68-4984-a902-b7f0bdb60b11 /mnt/backup ext4 nofail 0 2
